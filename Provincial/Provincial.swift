@@ -16,7 +16,7 @@ public class Provincial {
      
      - return: An array of State objects
      */
-    static func states(in country: Country) -> [State] {
+    public static func states(in country: Country) -> [State] {
         var states = [State]()
         
         switch country {
