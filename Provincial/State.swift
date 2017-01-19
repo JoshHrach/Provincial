@@ -14,15 +14,15 @@ import Foundation
 public class State {
     
     /// State name
-    var name: String
+    public private(set) var name: String
     /// State abbreviation
-    var abbreviation: String
+    public private(set) var abbreviation: String
     /// State capital
-    var capital: String
+    public private(set) var capital: String
     /// State's founding date
-    var founded: Date
+    public private(set) var founded: Date
     /// Country the state belongs to
-    var country: Country
+    public private(set) var country: Country
     
     init(name: String, abbreviation: String, capital: String, founded: Date, country: Country) {
         self.name = name
