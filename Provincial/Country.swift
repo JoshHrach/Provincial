@@ -9,6 +9,6 @@
 import Foundation
 
 public enum Country: String {
-    case usa
-    case canada
+    case usa = "USA"
+    case canada = "Canada"
 }
