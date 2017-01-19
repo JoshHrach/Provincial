@@ -11,8 +11,6 @@ import Foundation
 public protocol PoliticalEntity {
     /// State object containing information about each individual state or province.
     var info: State { get }
-    /// List of all states or provinces for a particular country.
-    static var all: [Self] { get }
 }
 
 extension PoliticalEntity {

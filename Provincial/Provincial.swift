@@ -14,25 +14,14 @@ public class Provincial {
      
      - parameter country: The country to get states for
      
-     - return: An array of State objects
+     - return: An array of PoliticalEntity objects
      */
-    public static func states(in country: Country) -> [State] {
-        var states = [State]()
-        
+    public static func states(in country: Country) -> [PoliticalEntity] {
         switch country {
         case .usa:
-            let allStates = USState.all
-            for state in allStates {
-                states.append(state.info)
-            }
+            return USState.all
         case .canada:
-            let provinces = CanadianProvince.all
-            for province in provinces {
-                states.append(province.info)
-            }
-            break
+            return CanadianProvince.all
         }
-        
-        return states
     }
 }
