@@ -19,25 +19,25 @@ None.
 Provincial is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
+```swift
 pod "Provincial"
 ```
 
 ## Usage
 
 At the top of your .swift file:
-```
+```swift
 import Provincial
 ```
 
 To get a list of all US states:
-```
+```swift
 let states = Provincial.states(in: .usa)
 ```
 This returns a list of `PoliticalEntity` objects representing states.
 
 The `PoliticalEntity` protocol requires each to provide a `State` computed property. This `State` struct includes the name and abbreviation of each state. Thus, to print the name of all 50 US States, you could write:
-```
+```swift
 for state in states {
   print(state.info.name)
 }
@@ -45,14 +45,14 @@ for state in states {
 
 States are listed by means of an enum. This can allow you to either check for specifics states while looping through a set, or to get individual information for a particular state.
 
-```
+```swift
 let arizona = USState.arizona
 print(arizona.name)
 print(arizona.abbreviation)
 ```
 
 It's also possible to filter or sort the array using Swift's built in `.filter` and `.sorted` methods.
-```
+```swift
 let newestStates = states.sorted { $0.info.date > $1.info.date }
 ```
 
