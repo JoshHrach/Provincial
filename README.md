@@ -56,6 +56,12 @@ It's also possible to filter or sort the array using Swift's built in `.filter` 
 let newestStates = states.sorted { $0.info.date > $1.info.date }
 ```
 
+## Planned Features and Improvements
+- [ ] All North American states and provinces (currently only US and Canada)
+- [ ] Convenience methods for sorting results
+- [ ] Better storage of data
+
+Feature suggestions and pull requests are welcome!
 
 ## Author
 
