@@ -11,7 +11,7 @@ import Foundation
 /**
  Contains information about an individual state.
  */
-public class State {
+public class State: Equatable {
     
     /// State name
     public private(set) var name: String
@@ -30,5 +30,9 @@ public class State {
         self.capital = capital
         self.founded = founded
         self.country = country
+    }
+    
+    public static func == (lhs: State, rhs: State) -> Bool {
+        return lhs.abbreviation == rhs.abbreviation && lhs.name == rhs.name && lhs.country == rhs.country
     }
 }

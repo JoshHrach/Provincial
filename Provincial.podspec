@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Provincial'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A small library to quickly get states and provinces for various countries.'
 
 # This description is used to generate tags and improve search results.
