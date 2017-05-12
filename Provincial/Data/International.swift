@@ -20,7 +20,7 @@ public enum International: String, PoliticalEntity {
         }
     }
     
-    public static var all: [InternationalState] {
+    public static var all: [International] {
         return [.international]
     }
 }
