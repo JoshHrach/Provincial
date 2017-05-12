@@ -16,7 +16,7 @@ public enum International: String, PoliticalEntity {
 
     public var info: State {
         switch self {
-        case .international: return State(name: "International", abbreviation: "INT", capital: "", founded: on.date(from: "")!, country: .international)
+        case .international: return State(name: "International", abbreviation: "INT", capital: "", founded: on.date(from: "01/01/1900")!, country: .international)
         }
     }
     
