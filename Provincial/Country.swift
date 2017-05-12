@@ -11,4 +11,5 @@ import Foundation
 public enum Country: String {
     case usa = "USA"
     case canada = "Canada"
+    case international = "International"
 }
