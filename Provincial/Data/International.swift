@@ -12,7 +12,7 @@ import Foundation
  International
  */
 public enum International: String, PoliticalEntity {
-    case international = "INT"
+    case international = "IT"
 
     public var info: State {
         switch self {
