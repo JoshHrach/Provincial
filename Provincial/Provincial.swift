@@ -22,6 +22,8 @@ public class Provincial {
             return USState.all
         case .canada:
             return CanadianProvince.all
+        case .international:
+            return International.all
         }
     }
 }
