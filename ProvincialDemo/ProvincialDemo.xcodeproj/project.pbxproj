@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		462781791E30277B0059661E /* PoliticalEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462781781E30277B0059661E /* PoliticalEntity.swift */; };
+		46511FA820DD793A00A2C220 /* International.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46511FA720DD793900A2C220 /* International.swift */; };
 		46932DF21E3021DD00024C73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46932DF11E3021DD00024C73 /* AppDelegate.swift */; };
 		46932DF41E3021DD00024C73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46932DF31E3021DD00024C73 /* ViewController.swift */; };
 		46932DF71E3021DD00024C73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46932DF51E3021DD00024C73 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		462781781E30277B0059661E /* PoliticalEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PoliticalEntity.swift; path = ../../Provincial/PoliticalEntity.swift; sourceTree = "<group>"; };
+		46511FA720DD793900A2C220 /* International.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = International.swift; path = ../../Provincial/Data/International.swift; sourceTree = "<group>"; };
 		46932DEE1E3021DD00024C73 /* ProvincialDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProvincialDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46932DF11E3021DD00024C73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46932DF31E3021DD00024C73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			children = (
 				46932E0B1E3024AC00024C73 /* UnitedStates.swift */,
 				46932E0D1E30251200024C73 /* Canada.swift */,
+				46511FA720DD793900A2C220 /* International.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -125,12 +128,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Random Projects";
 				TargetAttributes = {
 					46932DED1E3021DD00024C73 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 6MRL3MMFY4;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -175,6 +178,7 @@
 				46932DF41E3021DD00024C73 /* ViewController.swift in Sources */,
 				46932E0C1E3024AC00024C73 /* UnitedStates.swift in Sources */,
 				46932DF21E3021DD00024C73 /* AppDelegate.swift in Sources */,
+				46511FA820DD793A00A2C220 /* International.swift in Sources */,
 				46932E091E30233300024C73 /* Country.swift in Sources */,
 				46932E071E30229900024C73 /* State.swift in Sources */,
 				462781791E30277B0059661E /* PoliticalEntity.swift in Sources */,
@@ -213,15 +217,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -263,15 +275,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -301,12 +321,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6MRL3MMFY4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ProvincialDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.random-projects.ProvincialDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -314,12 +335,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6MRL3MMFY4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ProvincialDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.random-projects.ProvincialDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
