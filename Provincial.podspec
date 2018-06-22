@@ -30,6 +30,8 @@ Provincial makes it quick to get a list of states or provinces for various count
 
   s.ios.deployment_target = '8.0'
 
+  s.swift_version = '4.1'
+
   s.source_files = 'Provincial/**/*'
   s.module_name = 'Provincial'
 
